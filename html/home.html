@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RiseTogether</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- Seu CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="bg-dark text-white py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-0">
+          <a href="index.html" class="text-white text-decoration-none"
+            >RiseTogether</a
+          >
+        </h1>
+        <nav>
+                 <ul class="nav">
+                    <li class="nav-item"><a class="nav-link text-white" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="cursos.html">Cursos</a></li>
+                    <li class="nav-item"><a class="nav-link text-white" href="about-us.html">Sobre Nós</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-outline-light ms-2" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary ms-2" href="cadastro.html">Cadastro</a></li>
+                </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="start-here">
+        <div class="container">
+          <h2 class="display-4 mb-4">Seu Futuro Começa Aqui.</h2>
+          <p class="lead mb-5">
+            Aprenda as habilidades do amanhã com nossos cursos de alta qualidade
+            e focados na prática acadêmica.
+          </p>
+        </div>
+      </section>
+
+      <section class="container my-5">
+        <h3 class="text-center mb-4">Cursos em Destaque</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="/img/fundamentos-empreendedorismo.png"
+                class="card-img-top"
+                alt="Capa do Curso de Programação"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fundamentos do Empreendedorismo</h5>
+                <p class="card-text text-muted">
+                  Entenda o que é empreender, seus tipos, o mindset necessário e
+                  como gerar as primeiras ideias.
+                </p>
+                <a
+                  href="detalhes-curso.html?id=1"
+                  class="btn btn-sm btn-outline-primary"
+                  >Ver Curso</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="/img/gestao-financeira.png"
+                class="card-img-top"
+                alt="Capa do Curso de Inteligência Artificial"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Gestão Financeira para Empreendedores
+                </h5>
+                <p class="card-text text-muted">
+                  Domine o controle de caixa, precificação, análise de custos e
+                  as melhores formas de buscar investimento.
+                </p>
+                <a
+                  href="detalhes-curso.html?id=2"
+                  class="btn btn-sm btn-outline-primary"
+                  >Ver Curso</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="/img/marketing-e-vendas.png"
+                class="card-img-top"
+                alt="Capa do Curso de Design Gráfico"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Marketing e Vendas para Pequenas Empresas
+                </h5>
+                <p class="card-text text-muted">
+                  Desenvolva estratégias de branding, marketing digital e
+                  técnicas de vendas para atrair e conquistar clientes.
+                </p>
+                <a
+                  href="detalhes-curso.html?id=3"
+                  class="btn btn-sm btn-outline-primary"
+                  >Ver Curso</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light py-5">
+        <div class="container text-center">
+          <h3 class="mb-4">Por Que Escolher a Rise Together?</h3>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-chalkboard-teacher fa-3x text-primary mb-3"></i>
+              <h5>Instrutores Especialistas</h5>
+              <p class="text-muted">
+                Aprenda com profissionais renomados e experientes em suas áreas.
+              </p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-laptop-code fa-3x text-primary mb-3"></i>
+              <h5>Conteúdo Prático</h5>
+              <p class="text-muted">
+                Cursos focados em projetos reais para desenvolver suas
+                habilidades.
+              </p>
+            </div>
+            <div class="col-md-4 mb-4">
+              <i class="fas fa-award fa-3x text-primary mb-3"></i>
+              <h5>Certificação Reconhecida</h5>
+              <p class="text-muted">
+                Receba certificados que impulsionam sua carreira e currículo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        <p>
+          &copy; 2025 RiseTogether <br />
+          Todos os direitos reservados.
+        </p>
+        <p>
+          <a href="#" class="text-white text-decoration-none"
+            >Política de Privacidade</a
+          >
+          |
+          <a href="#" class="text-white text-decoration-none">Termos de Uso</a>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS (Popper.js incluso) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Seu JavaScript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
