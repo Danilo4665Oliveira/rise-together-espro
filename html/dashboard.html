@@ -28,57 +28,19 @@
 
         <section class="mb-5">
             <h3>Meus Cursos Ativos</h3>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/curso1.jpg" class="card-img-top" alt="Capa do Curso">
-                        <div class="card-body">
-                            <h5 class="card-title">Desenvolvimento Web Fullstack</h5>
-                            <p class="card-text text-muted">Progresso: 75%</p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <a href="detalhes-curso.html?id=1" class="btn btn-sm btn-primary">Continuar Curso</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/curso2.jpg" class="card-img-top" alt="Capa do Curso">
-                        <div class="card-body">
-                            <h5 class="card-title">Introdução à Inteligência Artificial</h5>
-                            <p class="card-text text-muted">Progresso: 40%</p>
-                            <div class="progress mb-2">
-                                <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                            </div>
-                            <a href="detalhes-curso.html?id=2" class="btn btn-sm btn-primary">Continuar Curso</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 id="activeCoursesList">
             </div>
         </section>
-
         <section>
             <h3>Recomendações para Você</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card h-100 shadow-sm">
-                        <img src="img/curso3.jpg" class="card-img-top" alt="Capa do Curso">
-                        <div class="card-body">
-                            <h5 class="card-title">Design Gráfico para Iniciantes</h5>
-                            <p class="card-text text-muted">Explore os fundamentos do design visual.</p>
-                            <a href="detalhes-curso.html?id=3" class="btn btn-sm btn-outline-secondary">Ver Detalhes</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Mais recomendações podem ser adicionadas aqui -->
+            <div class="row row-cols-1 row-cols-md-3 g-4" id="recommendedCoursesList">
             </div>
         </section>
     </main>
 
     <footer class="bg-dark text-white py-4 mt-5">
         <div class="container text-center">
-            <p>&copy; 2025 Academia Digital. Todos os direitos reservados.</p>
+            <p>&copy; 2025 RiseTogether.<br> Todos os direitos reservados.</p>
         </div>
     </footer>
 
