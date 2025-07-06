@@ -1,4 +1,4 @@
-// js/index.js (ou apenas index.js na raiz)
+// js/index.js (Salve este arquivo dentro da sua pasta 'js/')
 
 // Mocks de todos os cursos disponíveis
 // Em uma aplicação real, estes dados viriam de um banco de dados ou API.
@@ -13,8 +13,8 @@ const allCourses = [
         detailsPage: 'curso-details-fde.html',
         instructorName: 'Prof. Carlos Almeida',
         instructorBio: 'Especialista em Empreendedorismo, com 20 anos de experiência e palestrante nacionalmente famoso.',
-        videoEmbedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Exemplo de URL de embed do YouTube
-        modules: [ // Módulos para o currículo
+        videoEmbedUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Exemplo de URL de embed do YouTube (substitua pelos seus vídeos)
+        modules: [
             'Módulo 1: Introdução ao Empreendedorismo',
             'Módulo 2: O Mindset Empreendedor',
             'Módulo 3: Geração de Ideias e Oportunidades',
