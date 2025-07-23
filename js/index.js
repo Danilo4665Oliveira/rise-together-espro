@@ -106,19 +106,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Simula login bem-sucedido
                 loginMessage.classList.remove('alert-danger', 'd-none');
                 loginMessage.classList.add('alert-success');
-                loginMessage.textContent = `Login realizado com sucesso! Redirecionando para o painel...`;
+                loginMessage.textContent = (`Login realizado com sucesso! Redirecionando para o painel...`);
 
                 // Armazena o nome do usuário (simulação de sessão)
                 localStorage.setItem('loggedInUser', userName);
 
                 setTimeout(() => {
-                    window.location.href = 'dashboard.html'; // Redireciona para o dashboard
+                    window.location.href = ('dashboard.html'); // Redireciona para o dashboard
                 }, 1500); // Redireciona após 1.5 segundos
             } else {
                 // Simula login falho
                 loginMessage.classList.remove('alert-success', 'd-none');
                 loginMessage.classList.add('alert-danger');
-                loginMessage.textContent = 'Email ou senha incorretos.';
+                loginMessage.textContent = ('Email ou senha incorretos.');
             }
             loginMessage.classList.remove('d-none'); // Torna a mensagem visível
         });
